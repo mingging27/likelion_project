@@ -75,7 +75,7 @@ const LabelStrong = styled.span`
 
 const InputLong = styled(Input)`
   width: 906px;
-`
+`;
 
 const Submit = styled.button`
   width: 179px;

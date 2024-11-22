@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-
-const Text = styled.div``;
+import Header from "../components/Header";
 
 function Login() {
   return (
     <>
-      <Text>내용</Text>
+      <Header type="default" />
     </>
   );
 }

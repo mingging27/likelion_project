@@ -112,7 +112,6 @@ const ModalDetail = styled.p`
   font-weight: 500;
 `;
 
-// 닫기 버튼을 모달의 오른쪽 위에 고정
 const ModalClose = styled.button`
   position: absolute;
   top: 35px;

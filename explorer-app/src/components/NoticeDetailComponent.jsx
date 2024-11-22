@@ -26,7 +26,7 @@ const imageUrls = [
     picThree,
     picFour,
     picFive,
-    picSix
+    picSix,
 ];
 
 function NoticeDetailComponent() {

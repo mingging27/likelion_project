@@ -1,5 +1,5 @@
 /*
-슬라이더 때문에
+슬라이더
 npm install react-slick
 npm install slick-carousel
 설치해주세요
