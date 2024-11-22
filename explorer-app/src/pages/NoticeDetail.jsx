@@ -12,8 +12,8 @@ import NoticeDetailComponent from "../components/NoticeDetailComponent";
 
 const Content = styled.div `
   display: flex;
-  justify-content: center;
   flex-direction: column; 
+  align-items: center;
 `;
 
 function NoticeDetail() {
