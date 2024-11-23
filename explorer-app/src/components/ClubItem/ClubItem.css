@@ -1,41 +1,48 @@
 .club-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    gap: 50px 100px;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 50px 100px;
+  justify-content: center;
 }
 
 .club-item {
-    width: 300px;
-    height: 240px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid rgba(75, 103, 216, 0.5); 
-    border-radius: 30px; 
-    margin: 10px;
+  width: 300px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgba(75, 103, 216, 0.5);
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.club-item:hover {
+  background-color: rgba(75, 103, 216, 0.2); /* 마우스를 올렸을 때의 배경색 */
+  box-shadow: 0px 30px 30px rgba(114, 173, 217, 0.16); /* 그림자 효과 */
+  backdrop-filter: blur(30px); /* 배경 블러 효과 */
+  -webkit-backdrop-filter: blur(30px); /* 크롬 및 사파리 호환 */
 }
 
 .club-image {
-    width: 100px;
-    height: auto;
-    object-fit: cover;
-    margin-bottom: 20px;
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .club-category {
-    font-size: 17px;
-    font-weight: 600;
-    margin: 5px 0;
-    color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #fff;
 }
 
 .club-subcategory {
-    font-size: 12px;
-    font-weight: 400;
-    margin: 0;
-    white-space: pre-line;
-    color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  white-space: pre-line;
+  color: #fff;
 }
