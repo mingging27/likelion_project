@@ -10,6 +10,7 @@ const Content = styled.div`
   justify-content: center;
   flex-direction: column;
   margin-top: 7vw;
+  margin-bottom: 7vw;
 `;
 
 const Title = styled.h3`
